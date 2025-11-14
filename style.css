@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+
+}
+
+main {
+  background-color: white;
+
+}
+
+.shop-img{
+  border-bottom: 7px transparent solid;
+
+}
+
+.shop-img:hover{
+  transition: border-color 0.5s ease-in-out;
+}
+
+header {
+    display: flex;
+    gap: 10px;
+    padding-top: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 18px;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14.3px;
+    background-color: #fae441;
+    justify-content: space-between;
+    text-decoration: none;
+  .hn{
+    display: flex;
+    gap: 45px;
+    text-decoration: none;
+  }
+
+}
+a {
+    color: black;
+
+}
+a:hover{
+  color: darkslategray;
+  cursor: url("images/icons8-dollar-sign-25.png"), auto;
+  transition: background-color .3s ease, color .3s ease;
+}
+.announcements:hover {
+  background-color:lightsteelblue;
+  transition: background-color .7s ease-in-out, color .7s ease-in-out;
+}
+
+.announcements {
+  background-color: lightgrey;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+
+}
+
+.f1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 25px;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 19px;
+}
+.f2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-height: 60px;
+  max-height: 500px;
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+footer {
+  margin: 20px;
+  margin-top: 20px;
+}
+.centeredHeaders {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 25px;
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  text-decoration: underline #dbb714;
+
+
+}
+.shop {
+  background-image: url("images/shop-back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 130px;
+}
+
+.shop-head {
+  margin-left: 25px;
+  margin-right: 25px;
+    font-family: "Space Grotesk", sans-serif;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 30px;
+    text-decoration: none;
+    text-wrap: wrap;
+  .shop-body {
+    font-size:22px;
+
+
+    
+
+  }
+}
+
+.spec-head{
+  font-size: 20px;
+
+
+
+
+
+}
+
+.spec-sheets{
+  font-size: 17px;
+
+}
+
+.fdb{
+  background-image: url("images/surveyback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 17px;
+  padding-bottom: 150px;
+  
+  .questions{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+
+  }
+  
+  .feedback-head{
+      font-family: "Oxanium", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 23px;
+
+  }
+}
